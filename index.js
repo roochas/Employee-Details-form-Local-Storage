@@ -6,7 +6,7 @@ function onSubmit()
     let emailExisted = records.some ((r) => {return r.email == (document.getElementById("email").value)});
     if( emailExisted && edited == "false")
     {
-        alert("Duplicate data");
+        alert("Duplicate Email");
         document.getElementById("detailform").addEventListener("submit",function(event){
             event.preventDefault(); 
         });
