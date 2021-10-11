@@ -7,6 +7,9 @@ function onSubmit()
     if( emailExisted && edited == "false")
     {
         alert("Duplicate data");
+        document.getElementById("detailform").addEventListener("submit",function(event){
+            event.preventDefault(); 
+        });
     }
     else
     {
