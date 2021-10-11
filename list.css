@@ -1,0 +1,43 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: scroll;
+    background-color: #dbd8d8;
+}
+
+.listinfo
+{
+    padding: 40px;
+    /* height: 100vh; */
+    width: 750px;
+    margin: 40px 0px 60px 0px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+}
+
+#headerinfo
+{
+    text-align: center;
+}
+
+table
+{
+    border: 1px solid black;
+    width: 100%;
+}
+
+tr,th,td,tbody,thead
+{
+    border: 1px solid black;
+    padding: 10px;
+}
